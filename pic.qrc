@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>pic/ACT005.png</file>
+        <file>pic/edit.png</file>
+        <file>pic/group.png</file>
+        <file>pic/main.png</file>
+    </qresource>
+</RCC>

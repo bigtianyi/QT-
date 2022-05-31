@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QMainWindow" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>712</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>蜂鸣器</string>
+    </property>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>文本编辑器</string>
+    </property>
+    <addaction name="actionQT"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>主界面</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>小组成员</string>
+    </property>
+    <addaction name="action_3"/>
+   </widget>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="pic.qrc">
+     <normaloff>:/pic/pic/main.png</normaloff>:/pic/pic/main.png</iconset>
+   </property>
+   <property name="text">
+    <string>主界面</string>
+   </property>
+  </action>
+  <action name="actionQT">
+   <property name="icon">
+    <iconset resource="pic.qrc">
+     <normaloff>:/pic/pic/edit.png</normaloff>:/pic/pic/edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>QT文本编辑器</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="pic.qrc">
+     <normaloff>:/pic/pic/group.png</normaloff>:/pic/pic/group.png</iconset>
+   </property>
+   <property name="text">
+    <string>成员</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset resource="pic.qrc">
+     <normaloff>:/pic/pic/ACT005.png</normaloff>:/pic/pic/ACT005.png</iconset>
+   </property>
+   <property name="text">
+    <string>蜂鸣器</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
